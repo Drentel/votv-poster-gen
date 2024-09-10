@@ -1,0 +1,19 @@
+[DEFAULT]
+# Width and height of the output images (in pixels)
+result_size = 1500
+# The size of the resulting poster (in % of the result_size). Note that with values above 0.8 you might experience edge cutoff due to rotation and shadows
+poster_size = 0.5
+# Max rotation that will be randomly applied to each image (in degrees)
+max_rotation = 8
+# How many variants of each image to generate
+variants = 3
+# Offset of the drop shadow (in % of the result_size)
+# Positive X is left. Positive Y is up.
+shadow_offset_x = -0.003
+shadow_offset_y = -0.003
+# Transparency of the drop shadow (in range 0-255). Set to 0 to disable shadows completely.
+shadow_transparency = 200
+# Shadow radius (in % of the result_size). Higher values will make the shadow softer.
+shadow_radius=0.005
+# Prefix for each filename (change if you're generating a new batch to not override pics already generated)
+prefix = p
