@@ -1,5 +1,9 @@
 # votv-poster-gen
  Simple poster generator for Voices Of The Void
+ Converts images to .png, with options for:
+ - Resizing
+ - Random rotation
+ - Drop shadows
 # Requirements
 - Python3
 - Run ```python -m pip install configparser pillow```
