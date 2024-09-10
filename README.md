@@ -1,5 +1,6 @@
 # votv-poster-gen
- Simple poster generator for Voices Of The Void
+ Simple poster generator for Voices Of The Void. 
+ 
  Converts images to .png, with options for:
  - Resizing
  - Random rotation
